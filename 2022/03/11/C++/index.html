@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        C++学习指北（更新中） - undefined
+        
+    </title>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/aircloud.css">
+
+    
+<link rel="stylesheet" href="/css/gitment.css">
+
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i>  </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar ">
+            <img src="/img/favicon.ico" />
+        </div>
+        <div class="name">
+            <i></i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li >
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <!-- <li >
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li >
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li> -->
+            <li >
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%8C%E6%8F%A1%E8%AF%AD%E6%B3%95%E7%89%B9%E6%80%A7"><span class="toc-text">掌握语法特性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%A6%E4%B9%A0%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="toc-text">学习最佳实践</span></a></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input"/>
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+
+        <div class="index-about-mobile">
+            <i>  </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        C++学习指北（更新中）
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2022-03-11 21:45:27</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#C++" title="C++">C++</a>
+        <span>/</span>
+        
+        <a class="tag" href="/tags/#设计模式" title="设计模式">设计模式</a>
+        <span>/</span>
+        
+        <a class="tag" href="/tags/#最佳实践" title="最佳实践">最佳实践</a>
+        <span>/</span>
+        
+        <a class="tag" href="/tags/#中文" title="中文">中文</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content no-indent">
+        <h2 id="掌握语法特性"><a href="#掌握语法特性" class="headerlink" title="掌握语法特性"></a>掌握语法特性</h2><p>第一次接触C++是在南开的大一的课堂上。那时候我对编程非常抵触，充满厌恶（当然，那时候我对生活中几乎所有的东西都感到厌倦）。我的这种态度和学校的教学方法不无关系。毕竟国内高校的教学方法总是高高在上，呆板老旧。很少有老师或教材会尝试站在学生的视角去设计教学的方法，尝试站在当下的视角去选择教学的内容，从而导致很多简单、自然的概念和原则变得晦涩、生硬，导致很多实用的课程变得空洞、抽象。  </p>
+<p>入门C++的阶段主要是在熟悉C++的语法特性，掌握常见的使用方法。入门C++最好的选择或许是选择一个时下受欢迎的视频教程。其中，世界cs名校的公开课程录像是最优选择，培训机构的公开视频教程次之。这类教程往往由真正的大佬教学，教学内容对新手友好并且跟得上时代，而且有着设计精妙、发人深思的课后练习。但因为最佳选择往往隔几年就会更替，简单搜索就能找到，所以此处并无推荐。此外，选择一个热门的教学视频还意味着课后作业可以轻易找到大量讨论作为参考。   </p>
+<p>在了解了基本语法特性后，应该根据学习目标进行大量实践。实践的过程中再去学习和掌握新的语法特性和设计思想，再去学习数据结构、算法设计、操作系统、编译原理、计算机系统等领域的重要方法和原则。推荐在<a target="_blank" rel="noopener" href="https://en.cppreference.com/w/">cppreference</a>查找和确认C++内置语法特性及STL的细节，也可以通过搜索引擎搜索相关的讨论和分析，不过要注意鉴别讨论者的可靠性。也推荐在<a target="_blank" rel="noopener" href="https://leetcode.cn/problemset/">LeetCode</a>选择一些题目进行编程练习，提高算法设计和实现能力。</p>
+<p><strong>一条个人经验</strong>：C++更接近一种软件，而不是一种思想，它的的发展动力来源于归纳（induction），而不是演绎（deduction）。学习语法特性最重要的是搞清楚这个特性是为了什么而被提出，应该用在什么场景。例如看到一条C++新标准增加的新特性不是自己琢磨为什么增加这样的特性，体现了什么思想；而是查查大佬们是怎么用这个特性的，它到底能解决什么问题，是更安全更清晰了，还是更高效更方便了？所以在看大佬写的代码的时候，不要畏惧没见过的用法，而是主动学习积累新特性的正确用法。学习其他语言也是一样的。</p>
+<h2 id="学习最佳实践"><a href="#学习最佳实践" class="headerlink" title="学习最佳实践"></a>学习最佳实践</h2><p>C++语法特性众多，可以称得上是一个语言的联邦（语出《effective C++》）。那么实现相同的功能，可能有很多的思路和工具可用。这时候就要考虑实现的可读性、安全性、易维护性，否则会导致软件维护困难（例如我见过不会用多态、通篇dynamic_cast还大谈设计模式的程序员），或者更实际的角度来说，到时你的代码无法通过pr或者cr。实际上，无论是大到整个软件架构的设计，还是小到<a target="_blank" rel="noopener" href="https://github.com/fffaraz/awesome-cpp">具体的子问题的解决</a>，往往都有其他大佬探索后总结的最佳实践经验。学习、审视和应用这些最佳实践无疑是提高技术理解的捷径。阅读相关书籍、文章固然有效，但往往相对滞后；加入一个高水平的技术团队或者参与高水平的开源代码库开发才是真正提高技术的不二之选。</p>
+
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="/js/index.js"></script>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+    <script src="https://giscus.app/client.js"
+  data-repo="ygq65536/ygq65536.github.io"
+  data-repo-id="MDEwOlJlcG9zaXRvcnkxOTIxNDQzNTg="
+  data-category="General"
+  data-category-id="DIC_kwDOC3Pj5s4CbdM7"
+  data-mapping="title"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async>
+</script>
+
+
+
+
+
+
+</html>
